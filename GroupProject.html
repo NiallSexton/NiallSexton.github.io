@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Group Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">Group Project</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="BackEndProject.html">Back End Project</a></li>
+							<li><a href="FrontEndProject.html">Front End Project</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/niall-sexton-64a9821b3/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/NiallSexton" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Santa's Little Helper</h1>
+									<!-- <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+									amet nullam sed etiam veroeros.</p> -->
+								</header>
+								<div class="image main"><img src="images/logo-square.png" alt="" /></div>
+								<p><br>The final project of the Northcoders bootcamp was to create a project with 5 other members. In this project we needed to utilise the skills and knowledge we had gained on the course and also implement a new technology that we had not been taught during the course. </br><br>Our group, in the spirit of Christmas, decided to make an app that would help pick out presents using machine learning. The user would choose from a set of options to help determine the preferences of the receiver and then using these preferences, a cll to an Ebay API was made which returned a set of items to be displayed. If the user liked the gift idea, the item would be swiped right on and if they did not, the item would be swiped left on. </br><br>The way in which the items were swiped on, a custome built model which used Word2vec would use the swiped items to find words which were similar to that of the liked items and not the disliked items. A call to the Ebay API is then made again using the words as a search preference. Items were then displayed again using the search results and the user can continue to swipe on what they like and dislike. The liked items would be passed to a basket where the user could later review them and find links to the relevant items.</br><br>My role in this project was to develop the front end, using React Native to build a functional app where the user could naivgate through and swipe left and right. This had to be done without using any previously developed code so components like the swiping feature had to be built from the ground up.</br><br>Click the link below to view my Github Profile where you can find the code for Santa's Little Helper:</br><br>
+                                    <a href="https://github.com/NiallSexton">Click here to find my Github profile</a><br/>
+								</p>
+							</section>
+
+					</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
